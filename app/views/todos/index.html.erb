@@ -1,2 +1,4 @@
 <h1>To Do</h1>
- <%= @todos %>
+ <% @todos.each do |todo| %>
+  <%= todo.title %>
+ <% end %>
